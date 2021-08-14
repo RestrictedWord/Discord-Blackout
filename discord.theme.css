@@ -8,8 +8,7 @@
  * @source
  * @invite
 */
-.childWrapper-anI2G9 { background: var(--home-icon) center/cover no-repeat !important;}
-.homeIcon-FuNwkv { display: none;}
+
 :root{
         --accent-ui: #feeaa7; /* Main Color */
         --accent-ui-hov: var(--accent-ui);
@@ -27,14 +26,11 @@
         --spacing-ui: 10px;
         --text-ui: var(--back-ui);
         --text2-ui: var(--accent-ui);
+        --background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg')
     }
-    @import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
-    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
-    @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
-    @font-face {
-    font-family: Discord;
-    src: url("https://strencher.github.io/BetterDiscordStuff/Discord.otf") format("opentype");
-    }
+    /* Home Icon */
+    .childWrapper-anI2G9 { background: var(--home-icon) center/cover no-repeat !important;}
+    .homeIcon-FuNwkv { display: none;}
 
     .typeWindows-1za-n7 {
         position:relative
