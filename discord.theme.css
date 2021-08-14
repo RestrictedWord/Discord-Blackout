@@ -28,6 +28,11 @@
         --text2-ui: var(--accent-ui);
         --background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg')
     }
+
+    @import url(https://rawcdn.githack.com/RestrictedWord/Discord-Blackout/19f02d9513d00fc7919ed15a76b541034960891d/fonts.css);
+
+
+
     /* Home Icon */
     .childWrapper-anI2G9 { background: var(--home-icon) center/cover no-repeat !important;}
     .homeIcon-FuNwkv { display: none;}
