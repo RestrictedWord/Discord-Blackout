@@ -1,0 +1,62 @@
+/**
+ * @name Blackout
+ * @version 1.0
+ * @author RestrictedWord
+ * @authorLink None
+ * @description Dark and customizable Discord theme.
+ * @website None
+ * @source https://drive.google.com/file/d/1-FsjvDMeFvEHZBDq4uX17Kp6G7YZsz3K/view?usp=sharing
+ * @invite None
+*/
+@import url('https://drive.google.com/uc?export=view&id=1-FsjvDMeFvEHZBDq4uX17Kp6G7YZsz3K');
+
+:root{
+    /* Accents */
+    --accent-ui: #feeaa7;
+    --accent-ui-hov: var(--accent-ui);
+    --accent-ui-hov2: var(--back-ui);
+    --accent-ui-hov3: rgba(255, 255, 255, 0.070);
+
+    /* Home Icon */
+    --home-icon: url('https://cdn.discordapp.com/attachments/566758753903312901/874994298133811220/blackout.png');
+
+    /* Background Elements */
+    --back-ui: #1f2029;
+    --back2-ui: #1e2129;
+    --back3-ui: var(--accent-ui);
+    --back4-ui: #282934;
+    --back5-ui: rgba(42, 42, 57, 0.336);
+    --background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    --light-hov: rgba(255, 255, 255, 0.199);
+    --opacity-grey: rgba(42, 42, 57, 0.336);
+    
+    /* Top left text */
+    --wordmark: "Blackout"; 
+
+    /* margins/paddings/radius */
+    --radius-ui: 8px;
+    --radius2-ui: 4px;
+    --spacing-ui: 10px;
+
+    /* Text Colors */
+    --text-ui: var(--back-ui);
+    --text2-ui: var(--accent-ui);
+    /* Mention */
+    --mention-text: #f8ffba;
+    --mention-ground: #feeaa71c;
+    /* Fonts */
+    --main-font: 'Poppins', sans-serif;
+    --wordmark-font: 'Discord';
+    --wordmark-size: 14px;
+    --wordmark-src: url("https://strencher.github.io/BetterDiscordStuff/Discord.otf") format("opentype");
+    
+}
+/* Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@font-face {
+    font-family: Discord;
+    src: url("https://strencher.github.io/BetterDiscordStuff/Discord.otf") format("opentype");
+    }
+ 
