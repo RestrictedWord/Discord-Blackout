@@ -1,2 +1,0 @@
-- name: Upload to Discord
-  uses: sinshutu/upload-to-discord@v2.0.0
