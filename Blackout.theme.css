@@ -1,14 +1,15 @@
 /**
  * @name Blackout
- * @version 1.0
+ * @version 1.0.0
  * @author RestrictedWord
- * @authorLink None
+ * @authorLink https://discordapp.com/users/274733836771000321
  * @description Dark and customizable Discord theme.
  * @website https://restrictedword.github.io/
- * @source https://drive.google.com/file/d/1-FsjvDMeFvEHZBDq4uX17Kp6G7YZsz3K/view?usp=sharing
- * @invite None
+ * @source https://github.com/RestrictedWord/Discord-Blackout/blob/main/Blackout.source.css
+ * @invite https://discord.com/invite/FBXfdw439u
+ * @donate https://paypal.me/restrictedword
 */
-@import url('https://drive.google.com/uc?export=view&id=1-FsjvDMeFvEHZBDq4uX17Kp6G7YZsz3K');
+@import url('https://rawcdn.githack.com/RestrictedWord/Discord-Blackout/4ab399b507d32662ebb6007a96408a2dcf79e5c8/Blackout.source.css');
 
 :root{
     /* Accents */
